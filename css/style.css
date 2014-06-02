@@ -240,39 +240,38 @@
 
 /* Image */
 
-	.image {
-		border: 0;
-		position: relative;
-	}
+.image {
+	border: 0;
+	position: relative;
+}
 
-		.image:before {
-			background: url("images/overlay.png");
-			content: '';
-			height: 100%;
-			left: 0;
-			position: absolute;
-			top: 0;
-			width: 100%;
-		}
+.image:before {
+	content: '';
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
 
-		.image.fit {
-			display: block;
-		}
+.image.fit {
+	display: block;
+}
 
-			.image.fit img {
-				display: block;
-				width: 100%;
-			}
+.image.fit img {
+	display: block;
+	width: 100%;
+}
 
-		.image.feature {
-			display: block;
-			margin: 0 0 2em 0;
-		}
+.image.feature {
+	display: block;
+	margin: 0 0 2em 0;
+}
 
-			.image.feature img {
-				display: block;
-				width: 100%;
-			}
+.image.feature img {
+	display: block;
+	width: 100%;
+}
 
 /* Icon */
 
